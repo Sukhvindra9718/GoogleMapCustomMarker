@@ -115,7 +115,7 @@ export default class MarkerComponent extends React.Component<MarkerProps, Marker
                     onClick={this.props.onClick}
                     draggable={this.props.draggable}
                     icon={symbol}
-                    label={{ text: `${attributes?.PressureReading?.value} bar`, className: 'marker-badge-title' }}
+                    label={{ text: `${attributes?.PressureReading?.value}`, className: 'marker-badge-title' }}
                 ></Marker>)
         }
     }
