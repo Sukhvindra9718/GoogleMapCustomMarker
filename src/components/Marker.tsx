@@ -90,7 +90,7 @@ export default class MarkerComponent extends React.Component<MarkerProps, Marker
         const symbolProp = Object.getOwnPropertySymbols(item)[0];
         const data = item[symbolProp as unknown as "id"];
         const attributes = data._mxObject.jsonData.attributes;
-        console.log(attributes);
+
 
 
         if (attributes?.PressureReading?.value === undefined || attributes?.PressureReading?.value === '0' || attributes?.PressureReading?.value === null|| attributes?.PressureReading?.value === '') {

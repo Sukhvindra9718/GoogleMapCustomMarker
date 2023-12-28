@@ -7,7 +7,6 @@ import GoogleMapsContainer from "./components/GoogleMapsContainer";
 
 export default class GoogleMapsCustomMarker extends Component<GoogleMapsCustomMarkerContainerProps> {
     render(): ReactNode {
-        console.log("this.props.markerObjects: ", this.props)
         return (
             <GoogleMapsContainer
                 mapHeight={this.props.mapHeight}
